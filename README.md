@@ -26,13 +26,13 @@ This is a simple Python backtest engine for intraday option-buying strategies (N
 pip install pandas matplotlib requests
 ```
 
-2. Run backtest on snapshots:
+2. Run paper trading (snapshot collection) -> Collect live option chain data (paper trading):
 ```bash
 #iters 30 => create 30 csv files with interval 1 mins
 python engine.py --mode paper --symbol BANKNIFTY --snapshots ./snapshots --pollsec 60 --iters 30 
 ```
 
-3. Collect live option chain data (paper trading):
+3. Run backtest on collected snapshots:
 ```bash
 # maxtrades depends upon number of csv files
 python3 engine.py --mode backtest --symbol BANKNIFTY --snapshots ./snapshots --side AUTO --sl 0.30 --rr 2.0 --riskpct 0.02 --maxtrades 30
