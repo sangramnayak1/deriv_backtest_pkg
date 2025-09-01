@@ -2,7 +2,7 @@
 
 # 📂 Folder structure
 ```markdown
-deriv_backtest_pkg/
+derivative_market_backtest/
 │── engine.py
 │── README.md
 └── snapshots/
