@@ -35,5 +35,7 @@ python engine.py --mode paper --symbol BANKNIFTY --snapshots ./snapshots --polls
 3. Collect live option chain data (paper trading):
 ```bash
 # maxtrades depends upon number of csv files
-python3 engine.py --mode backtest --symbol BANKNIFTY --snapshots ./snapshots --side AUTO --sl 0.30 --rr 2.0 --riskpct 0.02 --maxtrades 3
+python3 engine.py --mode backtest --symbol BANKNIFTY --snapshots ./snapshots --side AUTO --sl 0.30 --rr 2.0 --riskpct 0.02 --maxtrades 30
 ```
+
+Follow this to know more about [Open Interest](https://github.com/sangramnayak1/derivative_market_backtest/blob/master/OpenInterest.md).
