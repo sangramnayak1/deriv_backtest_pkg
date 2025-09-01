@@ -38,4 +38,6 @@ python engine.py --mode paper --symbol BANKNIFTY --snapshots ./snapshots --polls
 python3 engine.py --mode backtest --symbol BANKNIFTY --snapshots ./snapshots --side AUTO --sl 0.30 --rr 2.0 --riskpct 0.02 --maxtrades 30
 ```
 
-Follow this to know more about [Open Interest](https://github.com/sangramnayak1/derivative_market_backtest/blob/master/OpenInterest.md).
+Follow the links to know more about 
+- [Open Interest](https://github.com/sangramnayak1/derivative_market_backtest/blob/master/OPEN_INTEREST.md)
+- [Option Greeks](https://github.com/sangramnayak1/derivative_market_backtest/blob/master/OPTION_GREEKS.md)
