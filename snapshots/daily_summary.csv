@@ -1,0 +1,2 @@
+date,trades,wins,losses,holds,day_pnl,close_balance,stop_reason
+2025-09-01,2,1,0,1,21948.390267879084,1021948.3902678791,STOPPED by Daily Profit Target
