@@ -39,5 +39,5 @@ python3 engine.py --mode backtest --symbol BANKNIFTY --snapshots ./snapshots --s
 ```
 
 Follow the links to know more about 
-- [Open Interest](https://github.com/sangramnayak1/derivative_market_backtest/blob/master/OPEN_INTEREST.md)
-- [Option Greeks](https://github.com/sangramnayak1/derivative_market_backtest/blob/master/OPTION_GREEKS.md)
+- [Open Interest](https://github.com/sangramnayak1/derivative_market_backtest/wiki/Open-Interest)
+- [Option Greeks](https://github.com/sangramnayak1/derivative_market_backtest/wiki/Option-Greeks)
